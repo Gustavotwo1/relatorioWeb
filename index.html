@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap&quot;" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Relatorio</title>
+</head>
+    <body>
+        
+        <button class = "toggle-tema" onclick="mudar_tema()"> Modo escuro</button>
+
+        <h1>Relato de Férias</h1>
+
+        <input type="text" id="nome" placeholder="Seu nome">
+
+        <textarea id="Relato" cols="30" rows="10" placeholder="Fez nas férias"></textarea>
+
+        <div class="botoes">
+            <button onclick="enivarRelato()">Enviar</button>
+            <button onclick="editarRelato()">Editar</button>
+            <button onclick="excluirRelato()">Excluir</button>
+
+        </div>
+
+        <div id="cartaFinal" class="carta"></div>
+
+        
+        <script src="script.js"></script>
+    </body>
+</html>
